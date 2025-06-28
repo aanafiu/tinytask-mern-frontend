@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Ubuntu&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+/* @import 'animate.css'; */
+
+
+@theme{
+  --font-Main: "Ubuntu", sans-serif;
+  --font-Second: "Manrope", sans-serif;
+  /* Colours */
+  --color-Primary: #14141a;
+  --color-Secondary: #252F5A;
+  --color-Muted: #525665;
+  --color-Light: #b7bad1;
+  --color-Accent: #1a59df;
+  --color-Highlight: #9a3efc;
+  --color-Pinkish: #f56eb1;
+  --color-Gold: #e8c42d;
+}
+
+.tab-active,
+.tab-inactive {
+  min-width: 200px; /* Set fixed or min width to avoid resizing */
+  text-align: center;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+  font-family: var(--font-Second);
+}
+.tab-active{
+  color: var(--color-Gold);
+  transition: color 0.3s ease-in-out;
+  font-weight: 600;
+  font-size: 1.2rem;
+  font-family: var(--font-Second);
+}
+.tab-inactive{
+  color: var(--color-Light);
+  transition: color 0.3s ease-in-out;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: var(--font-Second);
+}
+
+.active{
+  color: var(--color-Gold);
+}
+
+body{
+  background-color: var(--color-Primary);
+  position: relative;
+  color: var(--color-Light);
+}
+
+/* Hero */
+.hero{
+  background-image: url(../src/assets/herobg2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+/* task section */
+.task-section{
+  background-image: url(../src/assets/tasksection.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+input,option,select{
+  border: 1px solid var(--color-Gold);
+  background-color: var(--color-Primary);
+  color: var(--color-Light);
+}
+input:focus,option:focus, select:focus{
+  outline: none;
+  filter: drop-shadow(0 0 10px gold);
+
+}
