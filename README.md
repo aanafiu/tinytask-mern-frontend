@@ -9,8 +9,6 @@ Frontend for the **TinyTask** MERN Stack Project — a role-based question-solvi
 
 ## 📸 UI Preview Screenshots
 
-> 💡 Place these images inside `/public/screenshots/` or `/src/assets/screenshots/`.
-
 ### 🏠 Home Page
 ![Home Page](./public/screenshots/Homepage.png)
 ![Task Page](./public/screenshots/Home-Taskpage.png)
@@ -23,10 +21,28 @@ Frontend for the **TinyTask** MERN Stack Project — a role-based question-solvi
 ![Seller Requested Question](./public/screenshots/Admin-SellerQuestion-Request.png)
 
 ### 🛍️ Seller Dashboard
-![Seller Dashboard](./public/screenshots/seller-dashboard.png)
+![Seller Dashboard Question Add](./public/screenshots/Seller-Dashboard-QuestionAdd.png)
+![Seller Dashboard Question History](./public/screenshots/Seller-Dashboard-Question-History.png)
+![Seller Dashboard Package Payment History](./public/screenshots/Seller-Dashboard-Package-Payment-History.png)
+### Seller Package Wise Profile
+![Regular Profile](./public/screenshots/Seller-Regular-Profile.png)
+![Premium Profile](./public/screenshots/Seller-Premium-Profile.png)
+![Elite Profile](./public/screenshots/Seller-Elite-Profile.png)
 
 ### 🎮 Player Dashboard
-![Player Dashboard](./public/screenshots/player-dashboard.png)
+![Player Dashboard](./public/screenshots/Player-Dashboard-1.png)
+![Player Dashboard](./public/screenshots/Player-Dashboard-2.png)
+![Player Task Modal](./public/screenshots/Player-Task-Modal.png)
+![Player Task Modal](./public/screenshots/Player-Task-Route.png)
+
+### Custom SweetAlert, MongoDB, SSLCommerz, Login, Register
+![Login](./public/screenshots/Login.png)
+![Register](./public/screenshots/Register.png)
+![Custom Sweet Alert](./public/screenshots/Custom-Sweet-alert.png)
+![Mongodb](./public/screenshots/MongoDB%20Database.png)
+![SSL Commerz Payment](./public/screenshots/ssl%20Commerze%20Demo.png)
+![SSL OTP](./public/screenshots/ssl%20Commerze%20Demo%20Otp.png)
+
 
 ---
 
