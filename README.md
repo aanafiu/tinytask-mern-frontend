@@ -4,6 +4,7 @@ Frontend for the **TinyTask** MERN Stack Project — a role-based question-solvi
 
 🔗 **Live Website:** [https://tinytask-mern.web.app](https://tinytask-mern.web.app)  
 🔌 **Backend API:** [https://tinytask-backend.vercel.app](https://tinytask-backend.vercel.app)
+🔌 **Backend Repo:** [https://github.com/aanafiu/tinytask-mern-backend](https://github.com/aanafiu/tinytask-mern-backend)
 
 ---
 
@@ -102,10 +103,6 @@ cd tinytask-frontend
 npm install
 npm run dev
 ```
-
-> Make sure your `.env` file is set up properly.
-
-
 ---
 
 ## 🧪 Demo Test Accounts
@@ -120,4 +117,4 @@ npm run dev
 
 ## 📡 API Reference
 
-Refer to the [Backend API Documentation](https://tinytask-backend.vercel.app) for full endpoint usage.
+Refer to the [Backend API Documentation](https://github.com/aanafiu/tinytask-mern-backend) for full endpoint usage.
